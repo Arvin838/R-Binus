@@ -31,7 +31,7 @@ ggplot(data, aes(x = Price)) +
       y = "Frekuensi")
 
 #Berdasarkan dari tabel tersebut, terdapat perkiraan 17 rumah dengan harga kisaran 120.000 - 130.000
-#(Tabel grafik yang paling tinggi). Sedangkan, untuk tabel grafik paling rendah terdapat perkiraan
+#(Tabel grafik yang paling tinggi). Sedangkan, untuk tabel grafik paling tinggi terdapat perkiraan
 #3 rumah dengan harga di atas 200.000. Untuk secara mayoritas dan rata-rata dari keseluruhan data
 #terdapat perkiraan 7 rumah yang mempunyai harga cukup stabil dengan kisaran 130.000 - 140.000
 
