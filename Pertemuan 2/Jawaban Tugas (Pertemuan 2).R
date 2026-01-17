@@ -33,13 +33,18 @@ ggplot(data, aes(x = Price)) +
 #Berdasarkan dari tabel tersebut, terdapat perkiraan 17 rumah dengan harga kisaran 120.000 - 130.000
 #(Tabel grafik yang paling tinggi). Sedangkan, untuk tabel grafik paling rendah terdapat perkiraan
 #3 rumah dengan harga di atas 200.000. Untuk secara mayoritas dan rata-rata dari keseluruhan data
-#terdapat perkiraan 7 rumah yang mempunya harga cukup stabil dengan kisaran 130.000 - 140.000
+#terdapat perkiraan 7 rumah yang mempunyai harga cukup stabil dengan kisaran 130.000 - 140.000
 
 ggplot(data, aes(y = Price)) +
   geom_boxplot(fill = "purple") +
   labs(title = "Boxplot Harga")
 
 ggsave("output/histogram_harga 1.png")
+
+#Berdasarkan grafik tersebut, terdapat perkisaran harga 110.000 sampai dengan 145.000 yang berkumpul
+#dalam 1 area (berkumpul dalam kotak ungu tersebut). Lalu, terdapat juga outlier yang angkanya melebihi dari secara rata-rata
+# yaitu di atas 200.000 (berdasarkan dari data mentah, ada terdapat 1 harga rumah yang mencapai 211.200).
+
 
 #Tugas 4
 
