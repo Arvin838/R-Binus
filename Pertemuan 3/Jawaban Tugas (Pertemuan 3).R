@@ -42,8 +42,9 @@ mean(sample(data$obs, 30))
 #Sampel 4 = Hasil mean sample 30: -0.07366667
 #Sampel 5 = Hasil mean sample 30: -0.2246667
 
-#Hasil dari ke lima mean sampel tersebut walaupun berbeda-beda, tetapi masih dalam
-#jangkauan dari angka mean asli.
+#Hasil dari ke lima mean sampel tersebut bisa dibilang masih belum berhasil, 
+#karena hasil angka dari mean sampel tersebut yang mendekati hanya 2 sampel
+#,Sedangkan 3 angka sampel tersebut masih jauh dari angka original.
 
 
 #Tugas 4
