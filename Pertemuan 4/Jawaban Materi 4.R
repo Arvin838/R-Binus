@@ -33,6 +33,9 @@ t.test(data_normal_kolom2, mu = 15, conf.level = 0.90)
 
 #Jawab: Jika menggunakan a = 0.10, berdasarkan dari hasil data terdapat perbedaan pada nilai confidence interval.
 #Yang 95 percent adalah  14.89089 15.27183, sedangkan jika menggunakan 90 percent adalah 14.92152 15.24119.
+#Kesimpulannya: Semakin besar nilai a (alpha), maka semakin kecil nilai angka pada confidence levelnya.
+#Karena garis pada grafik distribusi normalnya itu semakin naik/menjorok ke atas, sehingga hasil dari angka
+#confidence level akan makin kecil.
 
 #Tugas 4
 #1. Uji normalitas diperlukan karena agar bisa mengetes simulasi nilai-nilai dari distribusi normal,
