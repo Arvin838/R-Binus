@@ -35,6 +35,8 @@ ggplot(data_student, aes(x = as.numeric(total_score),
 
 ggsave("output/scatter_korelasi.png")
 
+#Jawaban: Dari hasil gambar grafik tidak ada perbedaan antara nilai total skor  dengan class participation.
+
 #Tugas 4
 
 #1.Tidak, perbedaan rata-rata pada hasil data di tugas 1 tidak berbeda secara signifikan.
