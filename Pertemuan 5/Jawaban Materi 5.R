@@ -35,7 +35,7 @@ ggplot(data_student, aes(x = as.numeric(total_score),
 
 ggsave("output/scatter_korelasi.png")
 
-#Jawaban: Dari hasil gambar grafik tidak ada perbedaan antara nilai total skor  dengan class participation.
+#Jawaban: Dari pola hasil gambar grafik yang acak tidak ada hubungan antara nilai total skor dengan class participation.
 
 #Tugas 4
 
