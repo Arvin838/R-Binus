@@ -9,13 +9,20 @@ fit_anova <- aov(attendance_percentage ~ class, data = data_student)
 summary(fit_anova)
 
 #Jawaban: Berdasarkan dari hasil data, P value mendapatkan nilai sebesar 0.619 yang berarti
-#termasuk dalam H1 yang tidak menolak dan tidak ada perbedaan.
+#termasuk dalam H1 yang menolak dan ada perbedaan.
+
+#H0: Rata-rata pada data yang tersedia sama
+#H1: Minimal ada satu data yang rata-ratanya berbeda
 
 #Tugas 2
 shapiro.test(residuals(fit_anova))
 
 #Jawaban: Berdasarkan dari hasil didapatkan sebesar 0.00000216 pada P value, yang berarti
 #data tidak normal (Menolak H0).
+
+#Catatan
+#Jika P-Value > 0.05 --> gagal menolak H0 --> data normal
+#Jika P-Value kurang lebih sama dengan 0.05 --> Menolak H0 --> data tidak normal
 
 #Tugas 3
 data_reg <- read.csv2(
