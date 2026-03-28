@@ -5,9 +5,6 @@
 data <- read.csv2("C:/Users/binuscenter/Documents/Pertemuan 8/Churn Modeling.csv", sep = ",")
 head(data)
 
-data(mtcars)
-head(mtcars)
-
 #2. Eksplorasi Dataset
 
 str(data)
